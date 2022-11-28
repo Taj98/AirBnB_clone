@@ -1,15 +1,15 @@
 #!/usr/bin/python3
-"""Review class
-"""
-
-import uuid
-from datetime import datetime
-from models import storage
 from models.base_model import BaseModel
+"""Class that
+represent
+the review"""
 
 
 class Review(BaseModel):
-    """ Review class """
-    place_id = ""
-    user_id = ""
-    text = ""
+
+    """Initialize review class
+    instance
+    of basemodel class"""
+    place_id = ''
+    user_id = ''
+    text = ''

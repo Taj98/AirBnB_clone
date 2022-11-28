@@ -1,13 +1,14 @@
 #!/usr/bin/python3
-""" City class """
-
-import uuid
-from datetime import datetime
-from models import storage
 from models.base_model import BaseModel
+"""Class that
+represent
+the city"""
 
 
 class City(BaseModel):
-    """ City class """
+
+    """Initialize city class
+    instance
+    of basemodel class"""
     state_id = ""
     name = ""
